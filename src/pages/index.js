@@ -8,9 +8,10 @@ import Header from "../components/molecules/Header/index";
 const IndexPage = () => (
   <Layout>
     {/* <SEO title="Home" /> */}
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    {/* <div> */}
       {/* <Image /> */}
-    </div>
+    {/* </div> */}
+    <h1>Test</h1>
   </Layout>
 )
 
