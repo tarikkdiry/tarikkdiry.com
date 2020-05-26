@@ -1,0 +1,20 @@
+$white: #F0F0F2;
+$accent: #FD9374;
+$background: #1D2731;
+$grey: #81878C; 
+
+.container {
+    // background-color: red;
+
+    p {
+        color: $accent;
+    }
+
+    h1, h2, h3 {
+        color: $white;
+    }
+
+    h4 {
+        color :$grey;
+    }
+}

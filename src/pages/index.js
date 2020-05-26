@@ -1,9 +1,10 @@
-import React from "react"
-// import { Link } from "gatsby"
-import Layout from "../components/layouts/layout"
-import Image from "../components/image"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layouts/layout";
+import Image from "../components/image";
 // import SEO from "../components/seo"
 import Header from "../components/molecules/Header/index";
+import Intro from "../components/molecules/Intro/index";
 
 const IndexPage = () => (
   <Layout>
@@ -11,7 +12,7 @@ const IndexPage = () => (
     {/* <div> */}
       {/* <Image /> */}
     {/* </div> */}
-    <h1>Test</h1>
+    <Intro></Intro>
   </Layout>
 )
 

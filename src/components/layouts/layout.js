@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 // import Icon from "src/assets/icons/tk_logo_white.png";
 import Header from "../molecules/Header/index";
 import layoutStyles from "./layout.module.scss";
+import "../../styles/_variables.scss";
 
 const Layout = (props) => {
     return (
