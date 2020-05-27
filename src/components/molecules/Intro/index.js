@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import styles from "./index.module.scss";
 import '../../../styles/_variables.scss';
+import '../../../styles/global.scss';
 
 const Intro = () => {
     return (
