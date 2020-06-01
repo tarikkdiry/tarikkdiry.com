@@ -8,10 +8,14 @@ $background: #1D2731;
     padding: 0 1.0875rem 1.45rem;
     background-color: $background;
     height: 100vh;
+    min-height: 100%;
 
     .content {
-        position: relative;
+        // flex: 1;
+        // position: relative;
         // background-color: blue;
+        
+        flex-direction: column;
         padding: 5%;
         width: 100%;
         display: flex;

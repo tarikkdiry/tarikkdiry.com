@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 
 const Profile = () => {
     return (
-        <div className={profileStyles.profile}>
+        <div className={styles.profile}>
             <img src={ProfileImage}></img>
         </div>
     )
