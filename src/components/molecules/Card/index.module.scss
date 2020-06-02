@@ -1,0 +1,22 @@
+$white: #F0F0F2;
+$accent: #FD9374;
+$background: #1D2731;
+$grey: #81878C; 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    padding: 1%;
+    // background-color: red;
+    width: 100%;
+
+    p {
+        color: $accent;
+    }
+
+    h6 {
+        color: $grey;
+    }
+}
