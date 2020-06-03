@@ -1,12 +1,13 @@
 import React from "react";
-import Profile from "../../atoms/Profile/index.js";
+import Profile from "../../atoms/Profile/index";
+import Bio from "../../atoms/Bio/index";
 
 import styles from "./index.module.scss";
 
 const About = () => {
     return (
         <div className={styles.container}>
-            <h2>Testing</h2>
+            <Bio></Bio>
             <Profile></Profile>
         </div>
     );
