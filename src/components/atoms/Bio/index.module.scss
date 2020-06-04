@@ -5,9 +5,10 @@ $accent: #FD9374;
     flex: 1;
     flex-direction: column;
     // flex-wrap: wrap-reverse;
-    width: 100%;
+    // width: 100%;
 
     a {
         color: $accent;
+        text-decoration: none;
     }
 }

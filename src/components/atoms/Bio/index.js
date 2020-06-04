@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 const Bio = () => {
     return (
         <div className={styles.container}>
-            <h1>about me.</h1>
+            <h2>about me.</h2>
             <p>
                 Hello! My name is Tarik Kdiry and I'm a software engineer. 
             </p>

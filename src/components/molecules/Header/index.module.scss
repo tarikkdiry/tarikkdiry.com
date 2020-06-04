@@ -1,3 +1,7 @@
+$white: #F0F0F2;
+$accent: #FD9374;
+$background: #1D2731;
+
 .container {
     padding: 20px;
     width: 100%;
@@ -15,7 +19,15 @@
     .links {
         flex: 1;
         display: flex;
-        // background-color: blue;
         justify-content: flex-end;
+        text-decoration: none;
+
+        .navItem {
+            color: $white;
+        }
+
+        .nav-item:hover {
+            color: #81878C;
+        }
     }
 }
