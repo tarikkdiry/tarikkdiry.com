@@ -4,6 +4,8 @@ $background: #1D2731;
 $grey: #81878C; 
 
 .container {    
+    max-width: 1200px;
+    
     p {
         color: $accent;
     }

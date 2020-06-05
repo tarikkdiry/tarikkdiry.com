@@ -4,8 +4,9 @@ import Layout from "../components/layouts/layout";
 import Image from "../components/image";
 // import SEO from "../components/seo"
 import Header from "../components/molecules/Header/index";
-import Intro from "../components/molecules/Intro/index";
-import About from "../components/molecules/About/index";
+// import Intro from "../components/molecules/Intro/index";
+import Intro from "../components/organisms/IntroBlock/index";
+import About from "../components/organisms/AboutBlock/index";
 
 const IndexPage = () => (
   <Layout>

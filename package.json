@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tarikkdiry.com",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tarik Kdiry <tarik.kdiry@gmail.com>",
   "dependencies": {
     "bulma": "^0.8.2",
     "gatsby": "^2.20.25",
@@ -23,6 +23,8 @@
     "sass": "^1.26.5"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
+    "env-cmd": "^10.1.0",
     "prettier": "2.0.4"
   },
   "keywords": [
@@ -31,7 +33,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
