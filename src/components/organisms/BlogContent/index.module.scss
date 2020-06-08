@@ -1,3 +1,12 @@
+$white: #F0F0F2;
+$accent: #FD9374;
+$background: #1D2731;
+$grey: #81878C; 
+
 .container {
-    
+    min-height: 100vh;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    // background-color: red;
 }

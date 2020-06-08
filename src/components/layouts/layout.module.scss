@@ -3,20 +3,14 @@ $accent: #FD9374;
 $background: #1D2731;
 
 .container {
-    // display: flex;
-    // flex-direction: column;
-    // padding: 0 1.0875rem 1.45rem;
     background-color: $background;
     min-height: 100vh;
-    // min-height: 100%;
 
     .content {
         flex: 1;
-        // background-color: red;
         display: flex;
         flex-direction: column;
         padding: 5%;
-        // max-width: 90%;
         align-items: center;
         justify-content: center;
     }
