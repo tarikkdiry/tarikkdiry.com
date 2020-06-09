@@ -13,11 +13,13 @@ const Header = () => {
             {/* <img src={require("../../../assets/icons/tk_logo_white.png")} className={headerStyles.logo} style={{height: '40px', width: '50px'}} alt="tk" to="/"></img> */}
                 
             {/* </div> */}
+            <Link to="/">
+                <h3>Logo</h3> 
+            </Link>
             <div className={styles.links}>
                 <h3>
                     <Link className={styles.navItem} to="/blog">Blog</Link>
                 </h3>
-                {/* <h1>Resume</h1> */}
             </div>
             
         </div>

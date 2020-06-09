@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `tarikkdiry.com`,
-    description: `Personal Site and Blog for Tarik Kdiry, Software Engineer`,
+    description: `Tarik Kdiry, Software Engineer`,
     author: `Tarik Kdiry`,
   },
   plugins: [
@@ -17,6 +17,28 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'kpvam4whsk4z',
+        accessToken: 'gkewNGQJvSXQnajJhpcMl_WbG-u07bnDaL22FgfdnRc'
+      }
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 750,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -28,8 +50,5 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
