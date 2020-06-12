@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layouts/layout.js";
-import Hero from "../components/molecules/Hero/index";
-// import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import BlogPostContent from "../components/organisms/BlogPostContent/index";
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import "../styles/global.scss";
 
 export const query = graphql`
@@ -17,13 +17,27 @@ export const query = graphql`
     }
 `
 
+const options = {
+    // For image rendering
+    renderNode: {
+        "embedded-asset-block": (node) => {
+            const alt = node.data.target.fields.title['en-US']
+            const url = node.data.target.fields.file['en-US'].url
+            return <img alt={alt} src={url}/>
+        }
+    }
+}  
+
 const BlogPost = (props) => {
     return (
         <Layout>
-            <Hero 
-                title={props.data.title}
-                date={props.data.date}
-                forward={props.forward}
+            <BlogPostContent 
+                title={props.data.contentfulBlogPost.title}
+                date={props.data.contentfulBlogPost.publishedDate}
+                forward={props.data.contentfulBlogPost.forward}
+                content={
+                    documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
+                }
             />
         </Layout>
     )

@@ -4,7 +4,7 @@ import Header from "../../atoms/Header/index";
 import styles from "./index.module.scss";
 import { useStaticQuery, Link, graphql } from "gatsby";
 
-const BlogContent = () => {
+const BlogPostList = () => {
     const data = useStaticQuery(graphql`
         query {
             allContentfulBlogPost (
@@ -47,4 +47,4 @@ const BlogContent = () => {
     )
 }
 
-export default BlogContent;
+export default BlogPostList;

@@ -4,14 +4,15 @@ $background: #1D2731;
 $grey: #81878C;
 
 .container {
-    flex: 1;
-    flex-direction: column;
-
-    h2 {
+    h1, h2 {
         color: $white;
     }
 
-    .title {
+    h3 {
+        color: $accent;
+    }
 
+    h4 {
+        color: $grey;
     }
 }

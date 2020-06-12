@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styles from "./index.module.scss";
-// import logo from "../../../assets/tk_logo_white.png";
+import logo from "../../../assets/icons/tk_logo_white.png";
 // import { useStaticQuery, graphql } from "gatsby";
 
 import headerStyles from './index.module.scss';
@@ -13,9 +13,9 @@ const Header = () => {
             {/* <img src={require("../../../assets/icons/tk_logo_white.png")} className={headerStyles.logo} style={{height: '40px', width: '50px'}} alt="tk" to="/"></img> */}
                 
             {/* </div> */}
-            <Link to="/">
-                <h3>Logo</h3> 
-            </Link>
+            <a href="/">
+                <img src={logo} className={headerStyles.logo} style={{height: '40px', width: '50px'}} alt="tk" to="https://tarikkdiry.com"></img>
+            </a>
             <div className={styles.links}>
                 <h3>
                     <Link className={styles.navItem} to="/blog">Blog</Link>

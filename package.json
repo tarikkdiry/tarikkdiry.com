@@ -6,6 +6,7 @@
   "author": "Tarik Kdiry <tarik.kdiry@gmail.com>",
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@contentful/rich-text-react-renderer": "^13.4.0",
     "bulma": "^0.8.2",
     "contentful": "^7.14.4",
     "gatsby": "^2.20.25",

@@ -6,7 +6,13 @@ const Hero = ({title, date, forward}) => {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                <h2>{title}</h2>
+                <h1>{title}</h1>
+            </div>
+            <div className={styles.date}>
+                <h3>{date}</h3>
+            </div>
+            <div className={styles.forward}>
+                <h4>{forward}</h4>
             </div>
         </div>
     )

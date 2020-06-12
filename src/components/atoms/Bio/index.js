@@ -6,7 +6,7 @@ const Bio = () => {
         <div className={styles.container}>
             <h2>about me.</h2>
             <p>
-                Hello! My name is Tarik Kdiry and I'm a software engineer. 
+                As mentioned above, I'm a software engineer. I love writing code :)
             </p>
             <p>
                 Currently, I am a developer <a href="https://www.mmc.com">@MMC</a>, where I try to find problems I can solve using React. When I'm not at the office, I look forward to building new things through my <a href="https://github.com/tarikkdiry" target="_blank">personal projects.</a> 
