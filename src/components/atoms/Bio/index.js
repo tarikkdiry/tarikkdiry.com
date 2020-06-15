@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../Header/index";
 import styles from "./index.module.scss";
 
 const Bio = () => {

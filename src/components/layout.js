@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
 
@@ -28,10 +27,10 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-          backgroundColor: 'red',
+          // margin: `0 auto`,
+          // maxWidth: 960,
+          // padding: `0 1.0875rem 1.45rem`,
+          // backgroundColor: 'red',
         }}
       >
         <main>{children}</main>
@@ -46,7 +45,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  // children: PropTypes.node.isRequired,
 }
 
 export default Layout
