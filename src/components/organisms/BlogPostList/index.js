@@ -33,7 +33,7 @@ const BlogPostList = () => {
             <Header title="Blog."></Header>
             {data.allContentfulBlogPost.edges.map((edge) => {
                 return (
-                    <Link to={`/blog/${edge.node.slug}`}>
+                    <Link to={`/blog/${edge.node.slug}`} style={{ textDecoration: 'none' }}>
                         <Card 
                             title={edge.node.title}
                             date={edge.node.publishedDate}

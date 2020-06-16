@@ -12,7 +12,7 @@ const Header = () => {
             </Link>
             <div className={styles.links}>
                 <h3>
-                    <Link className={styles.navItem} to="/blog">Blog</Link>
+                    <Link style={{textDecoration: 'none', color: '#F0F0F2'}} className={styles.navItem} to="/blog">Blog</Link>
                 </h3>
             </div>
             
