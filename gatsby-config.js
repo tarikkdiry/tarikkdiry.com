@@ -3,6 +3,11 @@ module.exports = {
     title: `tarikkdiry.com`,
     description: `Tarik Kdiry, Software Engineer`,
     author: `Tarik Kdiry`,
+    email: 'mailto:tarik.kdiry@gmail.com',
+    instagram: 'https://www.instagram.com/tarik_kdiry/',
+    twitter: 'https://twitter.com/ehsotarik',
+    linkedin: 'https://www.linkedin.com/in/tarik-kdiry-0b62b8100/',
+    github: 'https://github.com/tarikkdiry'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
