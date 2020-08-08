@@ -1,7 +1,7 @@
 {
   "name": "tarikkdiry.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Tarik Kdiry - Software Engineer. Building cool things and writing about it as much as I can.",
   "version": "0.1.0",
   "author": "Tarik Kdiry <tarik.kdiry@gmail.com>",
   "dependencies": {
@@ -9,6 +9,7 @@
     "@contentful/rich-text-react-renderer": "^13.4.0",
     "bulma": "^0.8.2",
     "contentful": "^7.14.4",
+    "expo-font": "^8.1.1",
     "gatsby": "^2.20.25",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-manifest": "^2.3.5",
@@ -41,7 +42,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "develop": "GATSBY_GRAPHQL_IDE=playground CONTENTFUL_SPACE_ID=kpvam4whsk4z CONTENTFUL_ACCESS_TOKEN=gkewNGQJvSXQnajJhpcMl_WbG-u07bnDaL22FgfdnRc gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
