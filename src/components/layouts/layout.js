@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Header from "../molecules/Header/index";
+import Footer from "../molecules/Footer/index";
 import layoutStyles from "./layout.module.scss";
 import Icon from "../../assets/icons/tk_logo_white.png";
 import "../../styles/_variables.scss";
@@ -15,6 +16,7 @@ const Layout = (props) => {
             <div className={layoutStyles.content}>
                 {props.children}
             </div>
+            <Footer></Footer>
         </div>
     )
 };
