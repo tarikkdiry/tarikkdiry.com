@@ -20,7 +20,7 @@ const Footer = () => {
                 onMouseEnter={event => onMouseOver(event)}
                 onMouseOut={event => onMouseOut(event)}
             >
-                Designed and Developed by Tarik Kdiry
+                Designed and Developed with ❤️ by Tarik Kdiry
             </a>
         </div>
     )
