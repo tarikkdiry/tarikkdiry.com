@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layouts/layout.js";
 import BlogPostContent from "../components/organisms/BlogPostContent/index";
+import Subscribe from "../components/molecules/Subscribe/index";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import "../styles/global.scss";
 
@@ -39,6 +40,7 @@ const BlogPost = (props) => {
                     documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
                 }
             />
+            <Subscribe></Subscribe>
         </Layout>
     )
 }
