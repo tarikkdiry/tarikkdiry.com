@@ -40,7 +40,7 @@ const BlogPost = (props) => {
                     documentToReactComponents(props.data.contentfulBlogPost.body.json, options)
                 }
             />
-            <Subscribe></Subscribe>
+            {/* <Subscribe></Subscribe> */}
         </Layout>
     )
 }
