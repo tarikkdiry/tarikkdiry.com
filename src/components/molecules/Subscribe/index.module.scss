@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    // flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
     height: 400px;
@@ -8,16 +7,15 @@
 
     .left {
         flex: 1;
-        display: flex;
+        // display: flex;
         padding: 50px;
         flex-direction: column;
-        // justify-content: center;
         background-color: #005674;
     }
 
     .right {
         flex: 1;
-        display: flex;
+        // display: flex;
         padding: 50px;
         background-color: #143259;
         border-left-width: 10;

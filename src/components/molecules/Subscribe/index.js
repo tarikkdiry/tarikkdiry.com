@@ -12,7 +12,9 @@ const Subscribe = () => {
             </div>
             <div className={styles.right}>
                 {/* Form */}
-                {/* <h1>Test</h1> */}
+                {/* <input placeholder="test"></input>
+                <input placeholder="test"></input> */}
+
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ const ProjectsBlock = () => {
     return (
         <div className={styles.container}>
             {/* GRID */}
-            <ProjectsGrid></ProjectsGrid>
+            {/* <ProjectsGrid></ProjectsGrid> */}
         </div>
     )
 }
