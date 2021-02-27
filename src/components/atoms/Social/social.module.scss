@@ -6,6 +6,7 @@
     width: 60px;
     margin-right: 20px;
     margin-bottom: 20px;
+    transition: 0.5s;
 
     .logo {
         display: flex;
@@ -14,4 +15,8 @@
         margin-left: 50%;
         margin-right: 50%;
     }
+}
+
+.container:hover {
+    transform: translate(5px, 3px);   
 }

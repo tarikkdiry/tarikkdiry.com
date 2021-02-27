@@ -8,6 +8,7 @@ $grey: #81878C;
     flex-direction: column;
     padding: 1%;
     margin-bottom: 10%;
+    transition: 0.5s;
 
     p {
         color: $accent;
@@ -22,4 +23,8 @@ $grey: #81878C;
     h6 {
         color: $grey;
     }
+}
+
+.container:hover {
+    transform: translate(5px, 3px);   
 }
