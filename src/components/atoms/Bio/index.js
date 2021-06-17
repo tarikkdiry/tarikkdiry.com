@@ -10,7 +10,7 @@ const Bio = () => {
                 As mentioned above, I'm a software engineer. I love writing code :)
             </p>
             <p>
-                Currently, I am a developer <a href="https://www.mmc.com">@MMC</a>, where I try to find problems I can solve using React. When I'm not at the office, I look forward to building new things through my <a href="https://github.com/tarikkdiry" target="_blank">personal projects.</a> 
+                Currently, I am a software engineer <a href="https://www.leaflink.com/">@LeafLink</a>. When I'm not at the office, I look forward to building new things through my <a href="https://github.com/tarikkdiry" target="_blank">personal projects.</a> 
             </p>
             <p>
                 When I'm not behind a screen, I love to travel, watch movies, listen to/play music, learn new languages, etc. 
