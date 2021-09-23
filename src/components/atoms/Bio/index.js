@@ -7,7 +7,7 @@ const Bio = () => {
         <div className={styles.container}>
             <h2>about me.</h2>
             <p>
-                I'm Tarik, and I'm software engineer! Currently I am building cool things <a href="https://www.leaflink.com/">@LeafLink</a>. 
+                I'm Tarik, and I'm a software engineer! Currently I am building cool things <a href="https://www.leaflink.com/">@LeafLink</a>. 
             </p>
             <p>
                 When I'm not behind a screen, I love to travel, watch movies, listen to/play music, learn new languages, etc. 
